@@ -1,0 +1,40 @@
+<form method="POST">
+  <label for="forename">Forename:</label>
+  <input id="forename" name="forename" value="vasya" />
+  <label for="surname">Surname:</label>
+  <input id="surname" name="surname" value="pupkin" />
+  <input type="submit" value="Submit" />
+</form>
+
+<script>
+  let form = document.querySelector("form");
+  async function postData(url, data, options) {
+    try {
+      let res = await fetch(url, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
+      return res.json();
+    } catch (err) {
+      throw new Error(err);
+    }
+  }
+  async function submitHandler(user) {
+    try {
+      let data = await postData("/", user);
+      console.log(data);
+    } catch (err) {
+      console.log(err);
+    }
+  }
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    let { forename, surname } = e.target.elements;
+    let user = {
+      forename: forename.value,
+      surname: surname.value,
+    };
+    submitHandler(user);
+  });
+</script>

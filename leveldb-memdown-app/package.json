@@ -1,0 +1,16 @@
+{
+  "name": "leveldb-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tasks.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "foma",
+  "license": "ISC",
+  "dependencies": {
+    "levelup": "^4.4.0",
+    "memdown": "^5.1.0"
+  }
+}

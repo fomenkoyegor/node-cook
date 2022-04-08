@@ -1,0 +1,1852 @@
+{
+  "code": [
+  {
+    "name": "/usr/bin/node",
+    "type": "SHARED_LIB"
+  },
+  {
+    "name": "_init",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<char const*>(char const*, char const*&&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintF<char const*>(char const*, char const*&&)",
+    "type": "CPP"
+  },
+  {
+    "name": "node::DisablePromiseHook(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.190]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::AsyncWrap::Initialize(v8::Local<v8::Object>, v8::Local<v8::Value>, v8::Local<v8::Context>, void*) [clone .cold.191]",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::ToStringHelper::BaseConvert<3u, unsigned long, 0>(unsigned long const&) [clone .isra.610]",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::ToStringHelper::BaseConvert<4u, unsigned long, 0>(unsigned long const&) [clone .isra.612]",
+    "type": "CPP"
+  },
+  {
+    "name": "char* std::string::_S_construct<char const*>(char const*, char const*, std::allocator<char> const&, std::forward_iterator_tag) [clone .constprop.697]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::ImmediateInfo::Serialize(v8::Local<v8::Context>, v8::SnapshotCreator*) [clone .cold.701]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::TickInfo::Serialize(v8::Local<v8::Context>, v8::SnapshotCreator*) [clone .cold.702]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::AsyncHooks::Serialize(v8::Local<v8::Context>, v8::SnapshotCreator*) [clone .cold.703]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::Environment::MemoryInfo(node::MemoryTracker*) const [clone .cold.704]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::Environment::Serialize(v8::SnapshotCreator*) [clone .cold.705]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::Environment::NearHeapLimitCallback(void*, unsigned long, unsigned long) [clone .cold.706]",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<char const*&>(char const*, char const*&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintF<char const*&>(char const*, char const*&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::FPrintF<char const*&>(_IO_FILE*, char const*, char const*&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::FPrintF<char const*>(_IO_FILE*, char const*, char const*&&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<unsigned long>(char const*, unsigned long&&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintF<unsigned long>(char const*, unsigned long&&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::FPrintF<unsigned long>(_IO_FILE*, char const*, unsigned long&&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<unsigned long, unsigned long>(char const*, unsigned long&&, unsigned long&&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<bool&, unsigned long, unsigned long>(char const*, bool&, unsigned long&&, unsigned long&&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintF<bool&, unsigned long, unsigned long>(char const*, bool&, unsigned long&&, unsigned long&&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::FPrintF<bool&, unsigned long, unsigned long>(_IO_FILE*, char const*, bool&, unsigned long&&, unsigned long&&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintF<unsigned long, unsigned long>(char const*, unsigned long&&, unsigned long&&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::FPrintF<unsigned long, unsigned long>(_IO_FILE*, char const*, unsigned long&&, unsigned long&&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<unsigned long, unsigned long, unsigned long>(char const*, unsigned long&&, unsigned long&&, unsigned long&&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<unsigned long, unsigned long, unsigned long, unsigned long>(char const*, unsigned long&&, unsigned long&&, unsigned long&&, unsigned long&&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintF<unsigned long, unsigned long, unsigned long, unsigned long>(char const*, unsigned long&&, unsigned long&&, unsigned long&&, unsigned long&&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::FPrintF<unsigned long, unsigned long, unsigned long, unsigned long>(_IO_FILE*, char const*, unsigned long&&, unsigned long&&, unsigned long&&, unsigned long&&)",
+    "type": "CPP"
+  },
+  {
+    "name": "node::(anonymous namespace)::FSEventWrap::Initialize(v8::Local<v8::Object>, v8::Local<v8::Value>, v8::Local<v8::Context>, void*) [clone .cold.12]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::heap::Initialize(v8::Local<v8::Object>, v8::Local<v8::Value>, v8::Local<v8::Context>, void*) [clone .cold.231]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::heap::CreateHeapSnapshotStream(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.232]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::heap::BuildEmbedderGraph(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.233]",
+    "type": "CPP"
+  },
+  {
+    "name": "napi_wrap.cold.67",
+    "type": "CPP"
+  },
+  {
+    "name": "napi_unwrap.cold.68",
+    "type": "CPP"
+  },
+  {
+    "name": "napi_remove_wrap.cold.69",
+    "type": "CPP"
+  },
+  {
+    "name": "napi_type_tag_object.cold.70",
+    "type": "CPP"
+  },
+  {
+    "name": "napi_check_object_type_tag.cold.71",
+    "type": "CPP"
+  },
+  {
+    "name": "node::JSStream::Initialize(v8::Local<v8::Object>, v8::Local<v8::Value>, v8::Local<v8::Context>, void*) [clone .cold.35]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::JSUDPWrap::Initialize(v8::Local<v8::Object>, v8::Local<v8::Value>, v8::Local<v8::Context>, void*) [clone .cold.33]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::loader::ModuleWrap::SetInitializeImportMetaObjectCallback(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.292]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::loader::ModuleWrap::Initialize(v8::Local<v8::Object>, v8::Local<v8::Value>, v8::Local<v8::Context>, void*) [clone .cold.293]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::loader::ImportModuleDynamically(v8::Local<v8::Context>, v8::Local<v8::ScriptOrModule>, v8::Local<v8::String>) [clone .cold.294]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::loader::ModuleWrap::SyntheticModuleEvaluationStepsCallback(v8::Local<v8::Context>, v8::Local<v8::Module>) [clone .cold.295]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::loader::ModuleWrap::New(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.296]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::loader::ModuleWrap::Evaluate(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.297]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::MarkBootstrapComplete(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.252]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::Environment::CloseHandle<uv_handle_s, v8impl::(anonymous namespace)::ThreadSafeFunction::CloseHandlesAndMaybeDelete(bool)::{lambda(uv_handle_s*)#1}>(uv_handle_s*, v8impl::(anonymous namespace)::ThreadSafeFunction::CloseHandlesAndMaybeDelete(bool)::{lambda(uv_handle_s*)#1})::{lambda(uv_handle_s*)#1}::_FUN(uv_handle_s*) [clone .cold.173]",
+    "type": "CPP"
+  },
+  {
+    "name": "v8impl::(anonymous namespace)::ThreadSafeFunction::Cleanup(void*) [clone .cold.174]",
+    "type": "CPP"
+  },
+  {
+    "name": "v8impl::(anonymous namespace)::ThreadSafeFunction::IdleCb(uv_idle_s*) [clone .cold.175]",
+    "type": "CPP"
+  },
+  {
+    "name": "napi_module_register_by_symbol(v8::Local<v8::Object>, v8::Local<v8::Value>, v8::Local<v8::Context>, napi_value__* (*)(napi_env__*, napi_value__*)) [clone .cold.176]",
+    "type": "CPP"
+  },
+  {
+    "name": "napi_open_callback_scope.cold.177",
+    "type": "CPP"
+  },
+  {
+    "name": "napi_async_init.cold.178",
+    "type": "CPP"
+  },
+  {
+    "name": "napi_make_callback.cold.179",
+    "type": "CPP"
+  },
+  {
+    "name": "napi_get_uv_event_loop.cold.180",
+    "type": "CPP"
+  },
+  {
+    "name": "napi_create_threadsafe_function.cold.181",
+    "type": "CPP"
+  },
+  {
+    "name": "node::binding::DLOpen(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.116]",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::Buffer::(anonymous namespace)::StringSlice<(node::encoding)5>(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.145]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::Buffer::(anonymous namespace)::EncodeInto(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.146]",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::Buffer::(anonymous namespace)::StringSlice<(node::encoding)7>(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.147]",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::Buffer::(anonymous namespace)::StringSlice<(node::encoding)3>(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.148]",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::Buffer::(anonymous namespace)::StringSlice<(node::encoding)0>(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.149]",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::Buffer::(anonymous namespace)::StringSlice<(node::encoding)2>(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.150]",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::Buffer::(anonymous namespace)::StringSlice<(node::encoding)1>(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.151]",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::Buffer::(anonymous namespace)::StringSlice<(node::encoding)4>(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.152]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::Buffer::(anonymous namespace)::EncodeUtf8String(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.153]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::Buffer::(anonymous namespace)::GetZeroFillToggle(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.154]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::Initialize(v8::Local<v8::Object>, v8::Local<v8::Value>, v8::Local<v8::Context>, void*) [clone .cold.1]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::contextify::Initialize(v8::Local<v8::Object>, v8::Local<v8::Value>, v8::Local<v8::Context>, void*) [clone .cold.238]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::contextify::ContextifyScript::New(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.239]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::contextify::ContextifyContext::CompileFunction(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.240]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::credentials::GetUid(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.92]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::credentials::GetGid(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.93]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::credentials::GetEUid(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.94]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::credentials::GetEGid(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.95]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::credentials::SetEUid(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.96]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::credentials::SetGid(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.97]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::credentials::SetEGid(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.98]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::credentials::SetUid(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.99]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::credentials::Initialize(v8::Local<v8::Object>, v8::Local<v8::Value>, v8::Local<v8::Context>, void*) [clone .cold.100]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::credentials::SafeGetenv(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.101]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::credentials::GetGroups(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.102]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::fs_dir::Initialize(v8::Local<v8::Object>, v8::Local<v8::Value>, v8::Local<v8::Context>, void*) [clone .cold.134]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::fs_dir::OpenDir(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.135]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::fs_dir::DirHandle::Read(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.136]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::EnvQuery(v8::Local<v8::Name>, v8::PropertyCallbackInfo<v8::Integer> const&) [clone .cold.174]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::EnvEnumerator(v8::PropertyCallbackInfo<v8::Array> const&) [clone .cold.175]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::EnvGetter(v8::Local<v8::Name>, v8::PropertyCallbackInfo<v8::Value> const&) [clone .cold.176]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::EnvSetter(v8::Local<v8::Name>, v8::Local<v8::Value>, v8::PropertyCallbackInfo<v8::Value> const&) [clone .cold.177]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::EnvDeleter(v8::Local<v8::Name>, v8::PropertyCallbackInfo<v8::Boolean> const&) [clone .cold.178]",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::ToStringHelper::BaseConvert<3u, int, 0>(int const&) [clone .isra.51]",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::ToStringHelper::BaseConvert<4u, int, 0>(int const&) [clone .isra.53]",
+    "type": "CPP"
+  },
+  {
+    "name": "char* std::string::_S_construct<char const*>(char const*, char const*, std::allocator<char> const&, std::forward_iterator_tag) [clone .constprop.81]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::errors::EnableSourceMaps(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.83]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::errors::Initialize(v8::Local<v8::Object>, v8::Local<v8::Value>, v8::Local<v8::Context>, void*) [clone .cold.84]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::OnFatalError(char const*, char const*)",
+    "type": "CPP"
+  },
+  {
+    "name": "node::FatalError(char const*, char const*)",
+    "type": "CPP"
+  },
+  {
+    "name": "node::GetErrorSource(v8::Isolate*, v8::Local<v8::Context>, v8::Local<v8::Message>, bool*) [clone .constprop.79] [clone .cold.85]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::PrintStackTrace(v8::Isolate*, v8::Local<v8::StackTrace>) [clone .cold.86]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::ReportFatalException(node::Environment*, v8::Local<v8::Value>, v8::Local<v8::Message>, node::EnhanceFatalException) [clone .cold.87]",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintF<>(char const*)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::FPrintF<>(_IO_FILE*, char const*)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<char const*&, char const*&>(char const*, char const*&, char const*&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintF<char const*&, char const*&>(char const*, char const*&, char const*&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::FPrintF<char const*&, char const*&>(_IO_FILE*, char const*, char const*&, char const*&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<int&, char const*>(char const*, int&, char const*&&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<char const*&, int&, char const*>(char const*, char const*&, int&, char const*&&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintF<char const*&, int&, char const*>(char const*, char const*&, int&, char const*&&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<int const&>(char const*, int const&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<int const&, int const&>(char const*, int const&, int const&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintF<int const&, int const&>(char const*, int const&, int const&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::FPrintF<int const&, int const&>(_IO_FILE*, char const*, int const&, int const&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<char*, int const&, int const&>(char const*, char*&&, int const&, int const&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintF<char*, int const&, int const&>(char const*, char*&&, int const&, int const&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::FPrintF<char*, int const&, int const&>(_IO_FILE*, char const*, char*&&, int const&, int const&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<node::Utf8Value&>(char const*, node::Utf8Value&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintF<node::Utf8Value&>(char const*, node::Utf8Value&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::FPrintF<node::Utf8Value&>(_IO_FILE*, char const*, node::Utf8Value&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<node::Utf8Value&, node::Utf8Value&>(char const*, node::Utf8Value&, node::Utf8Value&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintF<node::Utf8Value&, node::Utf8Value&>(char const*, node::Utf8Value&, node::Utf8Value&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::FPrintF<node::Utf8Value&, node::Utf8Value&>(_IO_FILE*, char const*, node::Utf8Value&, node::Utf8Value&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<node::Utf8Value&, node::Utf8Value&, node::Utf8Value&>(char const*, node::Utf8Value&, node::Utf8Value&, node::Utf8Value&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintF<node::Utf8Value&, node::Utf8Value&, node::Utf8Value&>(char const*, node::Utf8Value&, node::Utf8Value&, node::Utf8Value&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::FPrintF<node::Utf8Value&, node::Utf8Value&, node::Utf8Value&>(_IO_FILE*, char const*, node::Utf8Value&, node::Utf8Value&, node::Utf8Value&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<node::Utf8Value&, int const&, int const&>(char const*, node::Utf8Value&, int const&, int const&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintF<node::Utf8Value&, int const&, int const&>(char const*, node::Utf8Value&, int const&, int const&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::FPrintF<node::Utf8Value&, int const&, int const&>(_IO_FILE*, char const*, node::Utf8Value&, int const&, int const&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<node::Utf8Value&, node::Utf8Value&, int const&, int const&>(char const*, node::Utf8Value&, node::Utf8Value&, int const&, int const&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintF<node::Utf8Value&, node::Utf8Value&, int const&, int const&>(char const*, node::Utf8Value&, node::Utf8Value&, int const&, int const&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::FPrintF<node::Utf8Value&, node::Utf8Value&, int const&, int const&>(_IO_FILE*, char const*, node::Utf8Value&, node::Utf8Value&, int const&, int const&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<std::string&>(char const*, std::string&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintF<std::string&>(char const*, std::string&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::FPrintF<std::string&>(_IO_FILE*, char const*, std::string&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<std::string>(char const*, std::string&&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintF<std::string>(char const*, std::string&&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::FPrintF<std::string>(_IO_FILE*, char const*, std::string&&)",
+    "type": "CPP"
+  },
+  {
+    "name": "node::fs::FileHandle::DoShutdown(node::ShutdownWrap*)::{lambda(uv_fs_s*)#1}::_FUN(uv_fs_s*) [clone .cold.402]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::fs::FileHandle::ClosePromise()::{lambda(uv_fs_s*)#1}::_FUN(uv_fs_s*) [clone .cold.403]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::fs::FileHandle::CloseReq::file_handle() [clone .cold.404]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::fs::FileHandle::New(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.405]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::fs::GetReqWrap(v8::FunctionCallbackInfo<v8::Value> const&, int, bool) [clone .constprop.386] [clone .cold.406]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::(anonymous namespace)::BindingData::MemoryInfo(node::MemoryTracker*) const [clone .cold.187]",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::ToStringHelper::BaseConvert<3u, int, 0>(int const&) [clone .isra.574]",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::ToStringHelper::BaseConvert<4u, int, 0>(int const&) [clone .isra.576]",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::ToStringHelper::BaseConvert<3u, unsigned int, 0>(unsigned int const&) [clone .isra.671]",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::ToStringHelper::BaseConvert<4u, unsigned int, 0>(unsigned int const&) [clone .isra.673]",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::ToStringHelper::BaseConvert<3u, unsigned long, 0>(unsigned long const&) [clone .isra.677]",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::ToStringHelper::BaseConvert<4u, unsigned long, 0>(unsigned long const&) [clone .isra.679]",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::ToStringHelper::BaseConvert<3u, unsigned char, 0>(unsigned char const&) [clone .isra.683]",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::ToStringHelper::BaseConvert<4u, unsigned char, 0>(unsigned char const&) [clone .isra.685]",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::ToStringHelper::BaseConvert<3u, long, 0>(long const&) [clone .isra.694]",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::ToStringHelper::BaseConvert<4u, long, 0>(long const&) [clone .isra.696]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::RefreshDefaultSettings(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.794]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Session::UpdateChunksSent(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.795]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Stream::operator*() const [clone .cold.796]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Stream::stream() const [clone .cold.797]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Stream::IncrementAvailableOutboundLength(unsigned long) [clone .cold.798]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Stream::DecrementAvailableOutboundLength(unsigned long) [clone .cold.799]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Stream::diagnostic_name() const [clone .cold.800]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2StreamListener::OnStreamRead(long, uv_buf_t const&) [clone .cold.801]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Settings::Pack() [clone .cold.802]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Session::Consume(v8::Local<v8::Object>) [clone .cold.803]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Stream::OnTrailers() [clone .cold.804]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Stream::ReadStop() [clone .cold.805]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Session::HandleAltSvcFrame(nghttp2_frame const*) [clone .part.156] [clone .cold.806]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Session::HandleGoawayFrame(nghttp2_frame const*) [clone .cold.807]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Session::RefreshState(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.808]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Stream::RefreshState(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.809]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Stream::~Http2Stream() [clone .cold.810]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Session::~Http2Session() [clone .cold.811]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Session::MaybeScheduleWrite() [clone .part.519] [clone .cold.812]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Settings::Send() [clone .cold.813]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Stream::DoShutdown(node::ShutdownWrap*) [clone .cold.814]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Stream::SubmitResponse(node::NgHeaders<node::http2::Http2HeadersTraits> const&, int) [clone .cold.815]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Stream::Respond(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.816]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Stream::SubmitPriority(node::http2::Http2Priority const&, bool) [clone .cold.817]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Stream::ReadStart() [clone .cold.818]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Session::Goaway(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.819]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Ping::Send(unsigned char const*) [clone .cold.820]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Session::Origin(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.821]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Stream::FlushRstStream() [clone .cold.822]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Session::HandleOriginFrame(nghttp2_frame const*) [clone .cold.823]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Session::New(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.824]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Stream::Destroy() [clone .part.731] [clone .cold.825]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Stream::Destroy(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.826]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Session::Goaway(unsigned int, int, unsigned char const*, unsigned long) [clone .cold.827]",
+    "type": "CPP"
+  },
+  {
+    "name": "non-virtual thunk to node::http2::Http2Stream::ReadStop() [clone .cold.828]",
+    "type": "CPP"
+  },
+  {
+    "name": "non-virtual thunk to node::http2::Http2Stream::ReadStart() [clone .cold.829]",
+    "type": "CPP"
+  },
+  {
+    "name": "non-virtual thunk to node::http2::Http2Stream::DoShutdown(node::ShutdownWrap*) [clone .cold.830]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Session::OnNghttpError(nghttp2_session*, char const*, unsigned long, void*) [clone .cold.831]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Session::MemoryInfo(node::MemoryTracker*) const [clone .cold.832]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Stream::Http2Stream(node::http2::Http2Session*, v8::Local<v8::Object>, int, nghttp2_headers_category, int) [clone .cold.833]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Session::SubmitRequest(node::http2::Http2Priority const&, node::NgHeaders<node::http2::Http2HeadersTraits> const&, int*, int) [clone .cold.834]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Stream::SubmitPushPromise(node::NgHeaders<node::http2::Http2HeadersTraits> const&, int*, int) [clone .cold.835]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Stream::AddHeader(nghttp2_rcbuf*, nghttp2_rcbuf*, unsigned char) [clone .cold.836]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Session::AddPing(unsigned char const*, v8::Local<v8::Function>) [clone .cold.837]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Session::AddSettings(v8::Local<v8::Function>) [clone .cold.838]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Priority::Http2Priority(node::Environment*, v8::Local<v8::Value>, v8::Local<v8::Value>, v8::Local<v8::Value>) [clone .cold.839]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Stream::Priority(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.840]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Session::OnDWordAlignedPadding(unsigned long, unsigned long) [clone .cold.841]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Session::OnMaxFrameSizePadding(unsigned long, unsigned long) [clone .cold.842]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Session::Receive(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.843]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Stream::DoWrite(node::WriteWrap*, uv_buf_t*, unsigned long, uv_stream_s*) [clone .cold.844]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Session::OnSendData(nghttp2_session*, nghttp2_frame*, unsigned char const*, unsigned long, nghttp2_data_source*, void*) [clone .cold.845]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Session::OnSelectPadding(nghttp2_session*, nghttp2_frame const*, unsigned long, void*) [clone .cold.846]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Stream::Close(int) [clone .cold.847]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Session::HandlePriorityFrame(nghttp2_frame const*) [clone .part.167] [clone .cold.848]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Session::MaybeStopReading() [clone .part.205] [clone .cold.849]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Session::SetNextStreamID(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.850]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Session::SetLocalWindowSize(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.851]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Session::HandleDataFrame(nghttp2_frame const*) [clone .cold.852]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Session::HandleHeadersFrame(nghttp2_frame const*) [clone .cold.853]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Session::MaybeStopReading() [clone .cold.854]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Session::OnFrameReceive(nghttp2_session*, nghttp2_frame const*, void*) [clone .cold.855]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Session::OnFrameNotSent(nghttp2_session*, nghttp2_frame const*, int, void*) [clone .cold.856]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Session::OnStreamClose(nghttp2_session*, int, unsigned int, void*) [clone .cold.857]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Session::SendPendingData() [clone .cold.858]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Session::ClearOutgoing(int) [clone .cold.859]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Session::Close(unsigned int, bool) [clone .cold.860]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Session::Destroy(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.861]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Stream::SubmitRstStream(unsigned int) [clone .cold.862]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Stream::RstStream(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.863]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Session::ClearOutgoing(int) [clone .constprop.763] [clone .cold.864]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Stream::StartHeaders(nghttp2_headers_category) [clone .cold.865]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Session::OnBeginHeadersCallback(nghttp2_session*, nghttp2_frame const*, void*) [clone .cold.866]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Stream::SubmitInfo(node::NgHeaders<node::http2::Http2HeadersTraits> const&) [clone .cold.867]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Stream::SubmitTrailers(node::NgHeaders<node::http2::Http2HeadersTraits> const&) [clone .cold.868]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Stream::Provider::Stream::OnRead(nghttp2_session*, int, unsigned char*, unsigned long, unsigned int*, nghttp2_data_source*, void*) [clone .cold.869]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Session::Request(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.870]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Stream::PushPromise(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.871]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Session::ConsumeHTTP2Data() [clone .cold.872]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Session::OnStreamRead(long, uv_buf_t const&) [clone .cold.873]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Session::OnStreamAfterWrite(node::WriteWrap*, int) [clone .cold.874]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Session::OnInvalidFrame(nghttp2_session*, nghttp2_frame const*, int, void*) [clone .cold.875]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::http2::Http2Session::OnDataChunkReceived(nghttp2_session*, unsigned char, int, unsigned char const*, unsigned long, void*) [clone .cold.876]",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::UnconditionalAsyncWrapDebug<>(node::AsyncWrap*, char const*)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::UnconditionalAsyncWrapDebug<char const*&>(node::AsyncWrap*, char const*, char const*&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<int&, int&, char const*>(char const*, int&, int&, char const*&&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintF<int&, int&, char const*>(char const*, int&, int&, char const*&&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::FPrintF<int&, int&, char const*>(_IO_FILE*, char const*, int&, int&, char const*&&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::UnconditionalAsyncWrapDebug<char const*>(node::AsyncWrap*, char const*, char const*&&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<unsigned int&>(char const*, unsigned int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintF<unsigned int&>(char const*, unsigned int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::FPrintF<unsigned int&>(_IO_FILE*, char const*, unsigned int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::UnconditionalAsyncWrapDebug<unsigned int&>(node::AsyncWrap*, char const*, unsigned int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<unsigned long&>(char const*, unsigned long&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintF<unsigned long&>(char const*, unsigned long&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::FPrintF<unsigned long&>(_IO_FILE*, char const*, unsigned long&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::UnconditionalAsyncWrapDebug<unsigned long&>(node::AsyncWrap*, char const*, unsigned long&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<int&>(char const*, int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintF<int&>(char const*, int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::FPrintF<int&>(_IO_FILE*, char const*, int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::UnconditionalAsyncWrapDebug<int&>(node::AsyncWrap*, char const*, int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<unsigned char const&>(char const*, unsigned char const&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintF<unsigned char const&>(char const*, unsigned char const&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::FPrintF<unsigned char const&>(_IO_FILE*, char const*, unsigned char const&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::UnconditionalAsyncWrapDebug<unsigned char const&>(node::AsyncWrap*, char const*, unsigned char const&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<unsigned char const&, int&>(char const*, unsigned char const&, int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintF<unsigned char const&, int&>(char const*, unsigned char const&, int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::FPrintF<unsigned char const&, int&>(_IO_FILE*, char const*, unsigned char const&, int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::UnconditionalAsyncWrapDebug<unsigned char const&, int&>(node::AsyncWrap*, char const*, unsigned char const&, int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<int&, unsigned int&>(char const*, int&, unsigned int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintF<int&, unsigned int&>(char const*, int&, unsigned int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::FPrintF<int&, unsigned int&>(_IO_FILE*, char const*, int&, unsigned int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::UnconditionalAsyncWrapDebug<int&, unsigned int&>(node::AsyncWrap*, char const*, int&, unsigned int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<long&>(char const*, long&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintF<long&>(char const*, long&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::FPrintF<long&>(_IO_FILE*, char const*, long&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::UnconditionalAsyncWrapDebug<long&>(node::AsyncWrap*, char const*, long&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<long&, unsigned long&>(char const*, long&, unsigned long&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintF<long&, unsigned long&>(char const*, long&, unsigned long&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::FPrintF<long&, unsigned long&>(_IO_FILE*, char const*, long&, unsigned long&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::UnconditionalAsyncWrapDebug<long&, unsigned long&>(node::AsyncWrap*, char const*, long&, unsigned long&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<nghttp2_headers_category&>(char const*, nghttp2_headers_category&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintF<nghttp2_headers_category&>(char const*, nghttp2_headers_category&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::FPrintF<nghttp2_headers_category&>(_IO_FILE*, char const*, nghttp2_headers_category&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::UnconditionalAsyncWrapDebug<nghttp2_headers_category&>(node::AsyncWrap*, char const*, nghttp2_headers_category&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::UnconditionalAsyncWrapDebug<unsigned long>(node::AsyncWrap*, char const*, unsigned long&&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<unsigned long&, int&>(char const*, unsigned long&, int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintF<unsigned long&, int&>(char const*, unsigned long&, int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::FPrintF<unsigned long&, int&>(_IO_FILE*, char const*, unsigned long&, int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::UnconditionalAsyncWrapDebug<unsigned long&, int&>(node::AsyncWrap*, char const*, unsigned long&, int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<int>(char const*, int&&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintF<int>(char const*, int&&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::FPrintF<int>(_IO_FILE*, char const*, int&&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::UnconditionalAsyncWrapDebug<int>(node::AsyncWrap*, char const*, int&&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<unsigned long&, int>(char const*, unsigned long&, int&&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintF<unsigned long&, int>(char const*, unsigned long&, int&&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::FPrintF<unsigned long&, int>(_IO_FILE*, char const*, unsigned long&, int&&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::UnconditionalAsyncWrapDebug<unsigned long&, int>(node::AsyncWrap*, char const*, unsigned long&, int&&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<unsigned int&, int&>(char const*, unsigned int&, int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<unsigned int&, unsigned int&, int&>(char const*, unsigned int&, unsigned int&, int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintF<unsigned int&, unsigned int&, int&>(char const*, unsigned int&, unsigned int&, int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::FPrintF<unsigned int&, unsigned int&, int&>(_IO_FILE*, char const*, unsigned int&, unsigned int&, int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::UnconditionalAsyncWrapDebug<unsigned int&, unsigned int&, int&>(node::AsyncWrap*, char const*, unsigned int&, unsigned int&, int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<unsigned char&>(char const*, unsigned char&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<unsigned long&, unsigned char&>(char const*, unsigned long&, unsigned char&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<int&, unsigned long&, unsigned char&>(char const*, int&, unsigned long&, unsigned char&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintF<int&, unsigned long&, unsigned char&>(char const*, int&, unsigned long&, unsigned char&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::FPrintF<int&, unsigned long&, unsigned char&>(_IO_FILE*, char const*, int&, unsigned long&, unsigned char&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::UnconditionalAsyncWrapDebug<int&, unsigned long&, unsigned char&>(node::AsyncWrap*, char const*, int&, unsigned long&, unsigned char&)",
+    "type": "CPP"
+  },
+  {
+    "name": "node::i18n::(anonymous namespace)::Transcode(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.110]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::i18n::Initialize(v8::Local<v8::Object>, v8::Local<v8::Value>, v8::Local<v8::Context>, void*) [clone .cold.111]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::i18n::ConverterObject::Create(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.112]",
+    "type": "CPP"
+  },
+  {
+    "name": "char* std::string::_S_construct<char const*>(char const*, char const*, std::allocator<char> const&, std::forward_iterator_tag) [clone .constprop.542]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::worker::MessagePort::New(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.544]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::worker::SiblingGroup::Entangle(std::initializer_list<node::worker::MessagePortData*>) [clone .cold.545]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::worker::MessagePort::Stop() [clone .cold.546]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::worker::MessagePort::Stop(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.547]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::worker::MessagePort::Start() [clone .cold.548]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::worker::MessagePort::MessagePort(node::Environment*, v8::Local<v8::Context>, v8::Local<v8::Object>) [clone .cold.549]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::worker::MessagePortData::AddToIncomingQueue(std::shared_ptr<node::worker::Message>) [clone .cold.550]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::worker::SiblingGroup::Disentangle(node::worker::MessagePortData*) [clone .cold.551]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::worker::MessagePort::ReceiveMessage(v8::Local<v8::Context>, bool) [clone .cold.552]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::worker::MessagePort::OnMessage() [clone .cold.553]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::worker::MessagePort::OnClose() [clone .cold.554]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::worker::MessagePort::Start(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.555]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::worker::MessagePort::Close(v8::Local<v8::Value>) [clone .cold.556]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::native_module::NativeModuleEnv::Initialize(v8::Local<v8::Object>, v8::Local<v8::Value>, v8::Local<v8::Context>, void*) [clone .cold.91]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::native_module::NativeModuleEnv::GetCacheUsage(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.92]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::native_module::NativeModuleEnv::GetModuleCategories(v8::Local<v8::Name>, v8::PropertyCallbackInfo<v8::Value> const&) [clone .cold.93]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::options_parser::Initialize(v8::Local<v8::Object>, v8::Local<v8::Value>, v8::Local<v8::Context>, void*) [clone .cold.733]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::options_parser::GetOptions(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.734]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::os::Initialize(v8::Local<v8::Object>, v8::Local<v8::Value>, v8::Local<v8::Context>, void*) [clone .cold.55]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::os::GetCPUInfo(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.56]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::os::GetInterfaceAddresses(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.57]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::performance::RemoveGarbageCollectionTracking(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.174]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::performance::InstallGarbageCollectionTracking(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.175]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::performance::LoopIdleTime(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.176]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::performance::Timerify(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.177]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::performance::Initialize(v8::Local<v8::Object>, v8::Local<v8::Value>, v8::Local<v8::Context>, void*) [clone .cold.178]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::performance::PerformanceState::Serialize(v8::Local<v8::Context>, v8::SnapshotCreator*) [clone .cold.179]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::performance::MarkMilestone(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.180]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::performance::PerformanceEntry::New(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.181]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::performance::Mark(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.182]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::performance::Measure(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.183]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::PerIsolatePlatformData::GetForegroundTaskRunner() [clone .cold.324]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::PerIsolatePlatformData::PostDelayedTask(std::unique_ptr<v8::Task, std::default_delete<v8::Task> >, double) [clone .part.307] [clone .cold.325]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::NodePlatform::GetForegroundTaskRunner(v8::Isolate*) [clone .cold.326]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::PerIsolatePlatformData::Shutdown() [clone .cold.327]",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string::_Rep::_M_dispose(std::allocator<char> const&) [clone .part.4]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::DebugEnd(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.151]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::Uptime(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.152]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::Cwd(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.153]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::MemoryUsage(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.154]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::Kill(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.155]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::Chdir(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.156]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::Umask(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.157]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::InitializeProcessMethods(v8::Local<v8::Object>, v8::Local<v8::Value>, v8::Local<v8::Context>, void*) [clone .cold.158]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::GetFastAPIs(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.159]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::GetActiveHandles(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.160]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::GetActiveRequests(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.161]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::DebugPortGetter(v8::Local<v8::Name>, v8::PropertyCallbackInfo<v8::Value> const&) [clone .cold.52]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::DebugPortSetter(v8::Local<v8::Name>, v8::Local<v8::Value>, v8::PropertyCallbackInfo<void> const&) [clone .cold.53]",
+    "type": "CPP"
+  },
+  {
+    "name": "report::WriteReport(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.28]",
+    "type": "CPP"
+  },
+  {
+    "name": "report::ShouldReportOnUncaughtException(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.29]",
+    "type": "CPP"
+  },
+  {
+    "name": "report::ShouldReportOnSignal(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.30]",
+    "type": "CPP"
+  },
+  {
+    "name": "report::SetCompact(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.31]",
+    "type": "CPP"
+  },
+  {
+    "name": "report::GetSignal(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.32]",
+    "type": "CPP"
+  },
+  {
+    "name": "report::GetReport(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.33]",
+    "type": "CPP"
+  },
+  {
+    "name": "report::Initialize(v8::Local<v8::Object>, v8::Local<v8::Value>, v8::Local<v8::Context>, void*) [clone .cold.34]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::(anonymous namespace)::Initialize(v8::Local<v8::Object>, v8::Local<v8::Value>, v8::Local<v8::Context>, void*) [clone .cold.72]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::SocketAddressBlockListWrap::Initialize(v8::Local<v8::Object>, v8::Local<v8::Value>, v8::Local<v8::Context>, void*) [clone .cold.250]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::symbols::Initialize(v8::Local<v8::Object>, v8::Local<v8::Value>, v8::Local<v8::Context>, void*) [clone .cold.1]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::task_queue::RunMicrotasks(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.29]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::task_queue::EnqueueMicrotask(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.30]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::task_queue::Initialize(v8::Local<v8::Object>, v8::Local<v8::Value>, v8::Local<v8::Context>, void*) [clone .cold.31]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::NodeCategorySet::Initialize(v8::Local<v8::Object>, v8::Local<v8::Value>, v8::Local<v8::Context>, void*) [clone .cold.157]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::(anonymous namespace)::InitializeTypes(v8::Local<v8::Object>, v8::Local<v8::Value>, v8::Local<v8::Context>, void*) [clone .cold.20]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::url::(anonymous namespace)::Initialize(v8::Local<v8::Object>, v8::Local<v8::Value>, v8::Local<v8::Context>, void*) [clone .cold.108]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::util::GetOwnNonIndexProperties(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.77]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::util::Initialize(v8::Local<v8::Object>, v8::Local<v8::Value>, v8::Local<v8::Context>, void*) [clone .cold.78]",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::ToStringHelper::BaseConvert<3u, unsigned int, 0>(unsigned int const&) [clone .isra.179]",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::ToStringHelper::BaseConvert<4u, unsigned int, 0>(unsigned int const&) [clone .isra.181]",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::ToStringHelper::BaseConvert<3u, unsigned long, 0>(unsigned long const&) [clone .isra.187]",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::ToStringHelper::BaseConvert<4u, unsigned long, 0>(unsigned long const&) [clone .isra.189]",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::ToStringHelper::BaseConvert<3u, unsigned short, 0>(unsigned short const&) [clone .isra.193]",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::ToStringHelper::BaseConvert<4u, unsigned short, 0>(unsigned short const&) [clone .isra.195]",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::ToStringHelper::BaseConvert<3u, unsigned char, 0>(unsigned char const&) [clone .isra.205]",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::ToStringHelper::BaseConvert<4u, unsigned char, 0>(unsigned char const&) [clone .isra.207]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::Initialize(v8::Local<v8::Object>, v8::Local<v8::Value>, v8::Local<v8::Context>, void*) [clone .cold.239]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::WASI::SchedYield(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.240]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::WASI::FdClose(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.241]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::WASI::FdDatasync(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.242]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::WASI::FdSync(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.243]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::WASI::ProcExit(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.244]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::WASI::ProcRaise(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.245]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::WASI::FdRenumber(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.246]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::WASI::ArgsSizesGet(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.247]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::WASI::ClockResGet(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.248]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::WASI::EnvironSizesGet(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.249]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::WASI::FdFdstatGet(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.250]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::WASI::FdFilestatGet(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.251]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::WASI::FdPrestatGet(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.252]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::WASI::FdTell(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.253]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::WASI::RandomGet(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.254]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::WASI::ArgsGet(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.255]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::WASI::EnvironGet(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.256]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::WASI::FdPrestatDirName(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.257]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::WASI::PathCreateDirectory(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.258]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::WASI::PathFilestatGet(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.259]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::WASI::PathRemoveDirectory(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.260]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::WASI::PathUnlinkFile(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.261]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::WASI::PollOneoff(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.262]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::WASI::FdRead(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.263]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::WASI::FdWrite(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.264]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::WASI::PathSymlink(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.265]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::WASI::PathReadlink(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.266]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::WASI::PathRename(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.267]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::WASI::PathLink(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.268]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::WASI::ClockTimeGet(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.269]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::WASI::FdFdstatSetFlags(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.270]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::WASI::FdFilestatSetSize(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.271]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::WASI::FdAllocate(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.272]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::WASI::FdFdstatSetRights(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.273]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::WASI::FdPwrite(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.274]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::WASI::FdReaddir(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.275]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::WASI::FdPread(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.276]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::WASI::SockShutdown(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.277]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::WASI::FdAdvise(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.278]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::WASI::FdFilestatSetTimes(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.279]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::WASI::FdSeek(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.280]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::WASI::PathFilestatSetTimes(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.281]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::WASI::SockRecv(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.282]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::WASI::SockSend(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.283]",
+    "type": "CPP"
+  },
+  {
+    "name": "node::wasi::WASI::PathOpen(v8::FunctionCallbackInfo<v8::Value> const&) [clone .cold.284]",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::ToStringHelper::BaseConvert<4u, long, 0>(long const&) [clone .isra.201]",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<unsigned int&, unsigned int&>(char const*, unsigned int&, unsigned int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintF<unsigned int&, unsigned int&>(char const*, unsigned int&, unsigned int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::FPrintF<unsigned int&, unsigned int&>(_IO_FILE*, char const*, unsigned int&, unsigned int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<unsigned int&, unsigned int&, unsigned int&>(char const*, unsigned int&, unsigned int&, unsigned int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintF<unsigned int&, unsigned int&, unsigned int&>(char const*, unsigned int&, unsigned int&, unsigned int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::FPrintF<unsigned int&, unsigned int&, unsigned int&>(_IO_FILE*, char const*, unsigned int&, unsigned int&, unsigned int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<unsigned int&, unsigned int&, unsigned int&, unsigned int&>(char const*, unsigned int&, unsigned int&, unsigned int&, unsigned int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintF<unsigned int&, unsigned int&, unsigned int&, unsigned int&>(char const*, unsigned int&, unsigned int&, unsigned int&, unsigned int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::FPrintF<unsigned int&, unsigned int&, unsigned int&, unsigned int&>(_IO_FILE*, char const*, unsigned int&, unsigned int&, unsigned int&, unsigned int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<unsigned int&, unsigned int&, unsigned int&, unsigned int&, unsigned int&>(char const*, unsigned int&, unsigned int&, unsigned int&, unsigned int&, unsigned int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintF<unsigned int&, unsigned int&, unsigned int&, unsigned int&, unsigned int&>(char const*, unsigned int&, unsigned int&, unsigned int&, unsigned int&, unsigned int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::FPrintF<unsigned int&, unsigned int&, unsigned int&, unsigned int&, unsigned int&>(_IO_FILE*, char const*, unsigned int&, unsigned int&, unsigned int&, unsigned int&, unsigned int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<unsigned int&, unsigned int&, unsigned int&, unsigned int&, unsigned int&, unsigned int&>(char const*, unsigned int&, unsigned int&, unsigned int&, unsigned int&, unsigned int&, unsigned int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintF<unsigned int&, unsigned int&, unsigned int&, unsigned int&, unsigned int&, unsigned int&>(char const*, unsigned int&, unsigned int&, unsigned int&, unsigned int&, unsigned int&, unsigned int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::FPrintF<unsigned int&, unsigned int&, unsigned int&, unsigned int&, unsigned int&, unsigned int&>(_IO_FILE*, char const*, unsigned int&, unsigned int&, unsigned int&, unsigned int&, unsigned int&, unsigned int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<unsigned int&, unsigned int&, unsigned int&, unsigned int&, unsigned int&, unsigned int&, unsigned int&>(char const*, unsigned int&, unsigned int&, unsigned int&, unsigned int&, unsigned int&, unsigned int&, unsigned int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintF<unsigned int&, unsigned int&, unsigned int&, unsigned int&, unsigned int&, unsigned int&, unsigned int&>(char const*, unsigned int&, unsigned int&, unsigned int&, unsigned int&, unsigned int&, unsigned int&, unsigned int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::FPrintF<unsigned int&, unsigned int&, unsigned int&, unsigned int&, unsigned int&, unsigned int&, unsigned int&>(_IO_FILE*, char const*, unsigned int&, unsigned int&, unsigned int&, unsigned int&, unsigned int&, unsigned int&, unsigned int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<unsigned long&, unsigned int&>(char const*, unsigned long&, unsigned int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<unsigned int&, unsigned long&, unsigned int&>(char const*, unsigned int&, unsigned long&, unsigned int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintF<unsigned int&, unsigned long&, unsigned int&>(char const*, unsigned int&, unsigned long&, unsigned int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::FPrintF<unsigned int&, unsigned long&, unsigned int&>(_IO_FILE*, char const*, unsigned int&, unsigned long&, unsigned int&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<unsigned short&>(char const*, unsigned short&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<unsigned int&, unsigned short&>(char const*, unsigned int&, unsigned short&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintF<unsigned int&, unsigned short&>(char const*, unsigned int&, unsigned short&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::FPrintF<unsigned int&, unsigned short&>(_IO_FILE*, char const*, unsigned int&, unsigned short&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<unsigned int&, unsigned long&>(char const*, unsigned int&, unsigned long&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintF<unsigned int&, unsigned long&>(char const*, unsigned int&, unsigned long&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::FPrintF<unsigned int&, unsigned long&>(_IO_FILE*, char const*, unsigned int&, unsigned long&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<unsigned long&, unsigned long&>(char const*, unsigned long&, unsigned long&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintFImpl<unsigned int&, unsigned long&, unsigned long&>(char const*, unsigned int&, unsigned long&, unsigned long&)",
+    "type": "CPP"
+  },
+  {
+    "name": "std::string node::SPrintF<unsigned int&, unsigned long&, unsigned long&>(char const*, unsigned int&, unsigned long&, unsigned long&)",
+    "type": "CPP"
+  },
+  {
+    "name": "void node::FPrintF<unsigned int&, unsigned long&, unsigned long&>(_IO_FILE*, char const*, unsigned int&, unsigned long&
